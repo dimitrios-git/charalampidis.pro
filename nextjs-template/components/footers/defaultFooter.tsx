@@ -3,7 +3,7 @@
 import React from 'react';
 
 const DefaultFooter = () => {
-  return <div>DefaultFooter</div>;
+  return <footer>DefaultFooter</footer>;
 };
 
 export default DefaultFooter;
