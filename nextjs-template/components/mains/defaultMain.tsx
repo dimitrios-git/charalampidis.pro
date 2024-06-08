@@ -1,6 +1,7 @@
 // @/components/mains/defaultMain.tsx
 
 import React from 'react';
+import { ThemeSwitcher } from '@/components/themeSwitcher';
 
 const DefaultMain = () => {
   return (
@@ -13,12 +14,13 @@ const DefaultMain = () => {
         tincidunt, nisl eget venenatis dictum, metus purus malesuada erat, ut
         semper sapien elit non ante.
       </p>
-      <p>
+      <p className="mb-4">
         Integer auctor, lacus sed bibendum auctor, augue arcu consectetur
         libero, vel euismod turpis quam eu augue. Aenean dapibus, turpis in
         fermentum luctus, eros libero venenatis est, in vehicula felis elit a
         ligula. Suspendisse potenti. Vivamus sed urna at justo congue bibendum.
       </p>
+      <ThemeSwitcher />
     </main>
   );
 };
