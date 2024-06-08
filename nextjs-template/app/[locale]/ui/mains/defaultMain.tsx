@@ -1,12 +1,25 @@
 // @/app/ui/mains/defaultMain.tsx
 
 import React from 'react';
-import { ThemeSwitcher } from '@/app/ui/themeSwitcher';
-import ExampleAdvertisementAside from '@/app/ui/asides/exampleAdvertisementAside';
+import { ThemeSwitcher } from '@/app/[locale]/ui/themeSwitcher';
+import ExampleAdvertisementAside from '@/app/[locale]/ui/asides/exampleAdvertisementAside';
+import { useTranslations } from 'next-intl';
 
 const DefaultMain = () => {
+  const t = useTranslations('DefaultMain.Hero');
+
   return (
     <main className="p-6">
+      <div className="w-3/4 mx-auto py-32 text-center">
+        <h1 className="text-6xl font-bold">{t('Title')}</h1>
+        <p className="pt-8 text-xl">{t('Subtitle')}</p>
+        <a
+          href="/about"
+          className="px-4 py-4 mt-6 bg-blue-500 text-white rounded inline-block"
+        >
+          {t('CallToAction')}
+        </a>
+      </div>
       <article className="mb-6">
         <h1 className="text-3xl font-bold mb-4">Welcome to Our Web App</h1>
         <p className="mb-4">
