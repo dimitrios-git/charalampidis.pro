@@ -1,4 +1,4 @@
-// @/components/themeSwitcher.tsx
+// @/app/ui/themeSwitcher.tsx
 
 'use client';
 

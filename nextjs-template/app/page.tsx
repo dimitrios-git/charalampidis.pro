@@ -1,13 +1,13 @@
 // @/app/page.tsx
 
-import DefaultHeader from '@/components/headers/defaultHeader';
-import DefaultMain from '@/components/mains/defaultMain';
-import DefaultFooter from '@/components/footers/defaultFooter';
+import NavbarControlledMenuHeader from '@/app/ui/headers/navbarControlledMenuHeader';
+import DefaultMain from '@/app/ui/mains/defaultMain';
+import DefaultFooter from '@/app/ui/footers/defaultFooter';
 
 export default function Home() {
   return (
     <>
-      <DefaultHeader />
+      <NavbarControlledMenuHeader />
       <DefaultMain />
       <DefaultFooter />
     </>

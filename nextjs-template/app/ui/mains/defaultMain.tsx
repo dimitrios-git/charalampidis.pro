@@ -1,7 +1,7 @@
-// @/components/mains/defaultMain.tsx
+// @/app/ui/mains/defaultMain.tsx
 
 import React from 'react';
-import { ThemeSwitcher } from '@/components/themeSwitcher';
+import { ThemeSwitcher } from '@/app/ui/themeSwitcher';
 
 const DefaultMain = () => {
   return (

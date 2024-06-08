@@ -1,4 +1,4 @@
-// @/components/footers/defaultFooter.tsx
+// @/app/ui/footers/defaultFooter.tsx
 
 import React from 'react';
 

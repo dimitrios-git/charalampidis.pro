@@ -1,4 +1,4 @@
-// @/components/headers/defaultHeader.tsx
+// @/app/ui/headers/defaultHeader.tsx
 
 import React from 'react';
 
