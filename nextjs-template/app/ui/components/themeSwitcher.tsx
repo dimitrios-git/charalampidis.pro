@@ -2,7 +2,7 @@
 
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
+import { MdOutlineLightMode, MdOutlineDarkMode } from 'react-icons/md';
 
 export function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
@@ -18,8 +18,12 @@ export function ThemeSwitcher() {
   const toggleTheme = () => setTheme(isDark ? 'light' : 'dark');
 
   return (
-    <Link href="#" onClick={toggleTheme} className="text-white font-bold">
-      {isDark ? 'Light Mode' : 'Dark Mode'}
-    </Link>
+    <div onClick={toggleTheme} className="cursor-pointer flex items-center">
+      {isDark ? (
+        <MdOutlineLightMode size={20} />
+      ) : (
+        <MdOutlineDarkMode size={20} />
+      )}
+    </div>
   );
 }
