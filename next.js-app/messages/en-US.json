@@ -29,5 +29,11 @@
   "DefaultAside": {
     "Title": "Aside Title",
     "Paragraph": "This is a paragraph inside an aside tag."
+  },
+  "MyNextUIHeader": {
+    "Navbar": {
+      "Brand": "Web App Title",
+      "NavLink": "Link"
+    }
   }
 }

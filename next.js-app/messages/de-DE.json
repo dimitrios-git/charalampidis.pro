@@ -29,5 +29,11 @@
   "DefaultAside": {
     "Title": "Nebentitel",
     "Paragraph": "Dies ist ein Absatz innerhalb eines aside-Tags."
+  },
+  "MyNextUIHeader": {
+    "Navbar": {
+      "Brand": "Titel der Web-Appe",
+      "NavLink": "Verknüpfung"
+    }
   }
 }
