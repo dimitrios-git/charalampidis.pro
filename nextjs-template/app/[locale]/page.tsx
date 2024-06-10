@@ -13,9 +13,9 @@ export default function Home({ params: { locale } }: HomeProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <DefaultHeader />
-      <div className="flex flex-1">
+      <div className="flex flex-1 flex-col md:flex-row">
         <DefaultMain />
-        <DefaultAside />
+        <DefaultAside className="md:w-1/4" />
       </div>
       <DefaultFooter />
     </div>
