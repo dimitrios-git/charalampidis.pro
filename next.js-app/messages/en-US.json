@@ -14,7 +14,8 @@
   "DefaultMain": {
     "Title": "Main Title",
     "Paragraph-1": "This is a paragraph inside a main tag.",
-    "Paragraph-2": "This is another paragraph inside a main tag."
+    "Paragraph-2": "This is another paragraph inside a main tag.",
+    "Button": "Button"
   },
   "DefaultSection": {
     "Title": "Section Title",

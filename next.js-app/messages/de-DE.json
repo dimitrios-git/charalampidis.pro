@@ -14,7 +14,8 @@
   "DefaultMain": {
     "Title": "Haupttitel",
     "Paragraph-1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
-    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
+    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags.",
+    "Button": "Schaltfläche"
   },
   "DefaultSection": {
     "Title": "Abschnittstitel",
