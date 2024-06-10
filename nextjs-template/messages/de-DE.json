@@ -1,26 +1,32 @@
 {
   "DefaultHeader": {
-    "webAppTitle": "Titel der Web-Appe",
-    "navLink": "Verknüpfung"
+    "App": {
+      "Title": "Titel der Web-Appe",
+      "NavLink": "Verknüpfung"
+    }
   },
   "DefaultFooter": {
-    "copyrightName": "Mein Firmenname",
-    "allRightsReserved": "Alle Rechte vorbehalten"
+    "Copyright": {
+      "Name": "Mein Firmenname",
+      "AllRightsReserved": "Alle Rechte vorbehalten"
+    }
   },
   "DefaultMain": {
-    "mainTitle": "Haupttitel",
-    "mainParagraph1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
-    "mainParagraph2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
+    "Title": "Haupttitel",
+    "Paragraph-1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
+    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
   },
   "DefaultSection": {
-    "sectionTitle": "Abschnittstitel",
-    "sectionParagraph1": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags.",
-    "articleTitle": "Artikeltitel",
-    "articleParagraph1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
-    "articleParagraph2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
+    "Title": "Abschnittstitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags.",
+    "Article": {
+      "Title": "Artikeltitel",
+      "Paragraph-1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
+      "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
+    }
   },
   "DefaultAside": {
-    "asideTitle": "Nebentitel",
-    "asideParagraph1": "Dies ist ein Absatz innerhalb eines aside-Tags."
+    "Title": "Nebentitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines aside-Tags."
   }
 }

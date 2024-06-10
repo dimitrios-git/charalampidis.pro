@@ -1,4 +1,4 @@
-// app/[locale]/ui/footers/defaultFooter.tsx
+// @/app/ui/footers/defaultFooter.tsx
 
 import { useTranslations } from 'next-intl';
 
@@ -9,7 +9,8 @@ const DefaultFooter = () => {
   return (
     <footer className="bg-gray-800 text-white p-4 text-center">
       <p>
-        &copy; {currentYear} {t('copyrightName')}. {t('allRightsReserved')}.
+        &copy; {currentYear} {t('Copyright.Name')}.{' '}
+        {t('Copyright.AllRightsReserved')}.
       </p>
     </footer>
   );

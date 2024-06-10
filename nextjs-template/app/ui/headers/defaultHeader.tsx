@@ -1,4 +1,4 @@
-// app/[locale]/ui/headers/defaultHeader.tsx
+// @/app/ui/headers/defaultHeader.tsx
 import Link from 'next/link';
 import LocaleSwitcher from '@/app/ui/components/localeSwitcher';
 import { useTranslations } from 'next-intl';
@@ -9,13 +9,13 @@ const DefaultHeader = () => {
   return (
     <header className="bg-gray-800 text-white p-4">
       <nav className="container mx-auto flex justify-between">
-        <div className="text-lg font-bold">{t('webAppTitle')}</div>
+        <div className="text-lg font-bold">{t('App.Title')}</div>
         <div className="flex space-x-4">
           <Link href="#" className="hover:underline">
-            {t('navLink')} 1
+            {t('App.NavLink')} 1
           </Link>
           <Link href="#" className="hover:underline">
-            {t('navLink')} 2
+            {t('App.NavLink')} 2
           </Link>
         </div>
         <LocaleSwitcher />

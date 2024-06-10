@@ -1,4 +1,4 @@
-// @/app/[locale]/ui/localeSwitcher.tsx
+// @/app/ui/components/localeSwitcher.tsx
 
 'use client';
 
