@@ -8,13 +8,16 @@
     "allRightsReserved": "All rights reserved"
   },
   "DefaultMain": {
-    "articleTitle": "Article Title",
-    "articleParagraph1": "This is a paragraph inside an article tag.",
-    "articleParagraph2": "This is another paragraph inside an article tag."
+    "mainTitle": "Main Title",
+    "mainParagraph1": "This is a paragraph inside a main tag.",
+    "mainParagraph2": "This is another paragraph inside a main tag."
   },
   "DefaultSection": {
     "sectionTitle": "Section Title",
-    "sectionParagraph1": "This is a paragraph inside a section tag."
+    "sectionParagraph1": "This is a paragraph inside a section tag.",
+    "articleTitle": "Article Title",
+    "articleParagraph1": "This is a paragraph inside an article tag.",
+    "articleParagraph2": "This is another paragraph inside an article tag."
   },
   "DefaultAside": {
     "asideTitle": "Aside Title",

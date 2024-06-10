@@ -2,6 +2,7 @@
 
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
@@ -17,11 +18,8 @@ export function ThemeSwitcher() {
   const toggleTheme = () => setTheme(isDark ? 'light' : 'dark');
 
   return (
-    <button
-      onClick={toggleTheme}
-      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-    >
+    <Link href="#" onClick={toggleTheme} className="text-white font-bold">
       {isDark ? 'Light Mode' : 'Dark Mode'}
-    </button>
+    </Link>
   );
 }

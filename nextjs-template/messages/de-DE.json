@@ -8,13 +8,16 @@
     "allRightsReserved": "Alle Rechte vorbehalten"
   },
   "DefaultMain": {
-    "articleTitle": "Artikeltitel",
-    "articleParagraph1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
-    "articleParagraph2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
+    "mainTitle": "Haupttitel",
+    "mainParagraph1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
+    "mainParagraph2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
   },
   "DefaultSection": {
     "sectionTitle": "Abschnittstitel",
-    "sectionParagraph1": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags."
+    "sectionParagraph1": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags.",
+    "articleTitle": "Artikeltitel",
+    "articleParagraph1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
+    "articleParagraph2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
   },
   "DefaultAside": {
     "asideTitle": "Nebentitel",
