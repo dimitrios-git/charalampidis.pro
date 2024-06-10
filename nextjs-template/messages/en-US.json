@@ -1,9 +1,23 @@
 {
+  "DefaultHeader": {
+    "webAppTitle": "Web App Title",
+    "navLink": "Link"
+  },
+  "DefaultFooter": {
+    "copyrightName": "My Company Name",
+    "allRightsReserved": "All rights reserved"
+  },
   "DefaultMain": {
-    "Hero": {
-      "Title": "Next.js Internalization Demo",
-      "Subtitle": "This demo uses Next.js and the next-intl package to create a multi-language website. We later also explore how it works with Hygraph.",
-      "CallToAction": "Read about us"
-    }
+    "articleTitle": "Article Title",
+    "articleParagraph1": "This is a paragraph inside an article tag.",
+    "articleParagraph2": "This is another paragraph inside an article tag."
+  },
+  "DefaultSection": {
+    "sectionTitle": "Section Title",
+    "sectionParagraph1": "This is a paragraph inside a section tag."
+  },
+  "DefaultAside": {
+    "asideTitle": "Aside Title",
+    "asideParagraph1": "This is a paragraph inside an aside tag."
   }
 }

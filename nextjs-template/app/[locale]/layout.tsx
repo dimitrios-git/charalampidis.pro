@@ -1,8 +1,8 @@
 // @/app/[locale]/layout.tsx
 
-import '@/app/[locale]/ui/globals.css';
-import { inter } from '@/app/[locale]/ui/fonts';
-import { Providers } from '@/app/[locale]/providers';
+import '@/app/ui/globals.css';
+import { inter } from '@/app/ui/fonts';
+import { Providers } from '@/app/providers';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

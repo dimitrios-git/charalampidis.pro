@@ -9,7 +9,7 @@ import {
   Link,
   Button,
 } from '@nextui-org/react';
-import { AcmeLogo } from '@/app/[locale]/ui/icons/acmeLogo';
+import { AcmeLogo } from '@/app/ui/icons/acmeLogo';
 
 const NavbarCustomizingTheActiveItemHeader = () => {
   return (

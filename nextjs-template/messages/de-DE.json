@@ -1,0 +1,23 @@
+{
+  "DefaultHeader": {
+    "webAppTitle": "Titel der Web-Appe",
+    "navLink": "Verknüpfung"
+  },
+  "DefaultFooter": {
+    "copyrightName": "Mein Firmenname",
+    "allRightsReserved": "Alle Rechte vorbehalten"
+  },
+  "DefaultMain": {
+    "articleTitle": "Artikeltitel",
+    "articleParagraph1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
+    "articleParagraph2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
+  },
+  "DefaultSection": {
+    "sectionTitle": "Abschnittstitel",
+    "sectionParagraph1": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags."
+  },
+  "DefaultAside": {
+    "asideTitle": "Nebentitel",
+    "asideParagraph1": "Dies ist ein Absatz innerhalb eines aside-Tags."
+  }
+}

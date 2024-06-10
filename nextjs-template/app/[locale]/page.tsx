@@ -1,8 +1,9 @@
 // @/app/[locale]/page.tsx
 
-import NavbarCustomizingTheActiveItemHeader from '@/app/[locale]/ui/headers/navbarCustomizingTheActiveItemHeader';
-import DefaultMain from '@/app/[locale]/ui/mains/defaultMain';
-import DefaultFooter from '@/app/[locale]/ui/footers/defaultFooter';
+import DefaultHeader from '@/app/ui/headers/defaultHeader';
+import DefaultMain from '@/app/ui/mains/defaultMain';
+import DefaultFooter from '@/app/ui/footers/defaultFooter';
+import DefaultAside from '@/app/ui/asides/defaultAside';
 
 interface HomeProps {
   params: { locale: string };
@@ -10,10 +11,13 @@ interface HomeProps {
 
 export default function Home({ params: { locale } }: HomeProps) {
   return (
-    <>
-      <NavbarCustomizingTheActiveItemHeader />
-      <DefaultMain />
+    <div className="flex flex-col min-h-screen">
+      <DefaultHeader />
+      <div className="flex flex-1">
+        <DefaultMain />
+        <DefaultAside />
+      </div>
       <DefaultFooter />
-    </>
+    </div>
   );
 }
