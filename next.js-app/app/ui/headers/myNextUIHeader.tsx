@@ -1,3 +1,5 @@
+// @/app/ui/headers/myNextUIHeader.tsx
+
 import React from 'react';
 import {
   Navbar,
@@ -7,14 +9,14 @@ import {
   Link,
 } from '@nextui-org/react';
 import { useTranslations } from 'next-intl';
-import LocaleSwitcher from '@/app/ui/components/localeSwitcher';
+import MyNextUILocaleSwitcher from '@/app/ui/components/myNextUILocaleSwitcher';
 import { ThemeSwitcher } from '@/app/ui/components/themeSwitcher';
 
 const MyNextUIHeader = () => {
   const t = useTranslations('MyNextUIHeader');
 
   return (
-    <header>
+    <header className="sticky top-0 z-50">
       <Navbar>
         <NavbarBrand>
           <p className="font-bold text-inherit">{t('Navbar.Brand')}</p>
@@ -32,10 +34,8 @@ const MyNextUIHeader = () => {
           </NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <LocaleSwitcher />
-          </NavbarItem>
-          <NavbarItem>
+          <NavbarItem className="hidden lg:flex space-x-2">
+            <MyNextUILocaleSwitcher />
             <ThemeSwitcher />
           </NavbarItem>
         </NavbarContent>

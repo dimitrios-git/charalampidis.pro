@@ -14,8 +14,7 @@
   "DefaultMain": {
     "Title": "Main Title",
     "Paragraph-1": "This is a paragraph inside a main tag.",
-    "Paragraph-2": "This is another paragraph inside a main tag.",
-    "Button": "Button"
+    "Paragraph-2": "This is another paragraph inside a main tag."
   },
   "DefaultSection": {
     "Title": "Section Title",
@@ -35,5 +34,29 @@
       "Brand": "Web App Title",
       "NavLink": "Link"
     }
+  },
+  "MyNextUIFooter": {
+    "Copyright": {
+      "Name": "My Company Name",
+      "AllRightsReserved": "All rights reserved"
+    }
+  },
+  "MyNextUIMain": {
+    "Title": "Main Title",
+    "Paragraph-1": "This is a paragraph inside a main tag.",
+    "Paragraph-2": "This is another paragraph inside a main tag."
+  },
+  "MyNextUISection": {
+    "Title": "Section Title",
+    "Paragraph": "This is a paragraph inside a section tag.",
+    "Article": {
+      "Title": "Article Title",
+      "Paragraph-1": "This is a paragraph inside an article tag.",
+      "Paragraph-2": "This is another paragraph inside an article tag."
+    }
+  },
+  "MyNextUIAside": {
+    "Title": "Aside Title",
+    "Paragraph": "This is a paragraph inside an aside tag."
   }
 }

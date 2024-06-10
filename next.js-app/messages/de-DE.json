@@ -14,8 +14,7 @@
   "DefaultMain": {
     "Title": "Haupttitel",
     "Paragraph-1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
-    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags.",
-    "Button": "Schaltfläche"
+    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
   },
   "DefaultSection": {
     "Title": "Abschnittstitel",
@@ -35,5 +34,29 @@
       "Brand": "Titel der Web-Appe",
       "NavLink": "Verknüpfung"
     }
+  },
+  "MyNextUIFooter": {
+    "Copyright": {
+      "Name": "Mein Firmenname",
+      "AllRightsReserved": "Alle Rechte vorbehalten"
+    }
+  },
+  "MyNextUIMain": {
+    "Title": "Haupttitel",
+    "Paragraph-1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
+    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
+  },
+  "MyNextUISection": {
+    "Title": "Abschnittstitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags.",
+    "Article": {
+      "Title": "Artikeltitel",
+      "Paragraph-1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
+      "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
+    }
+  },
+  "MyNextUIAside": {
+    "Title": "Nebentitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines aside-Tags."
   }
 }

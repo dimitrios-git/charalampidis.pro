@@ -2,7 +2,6 @@
 
 import DefaultSection from '@/app/ui/sections/defaultSection';
 import { useTranslations } from 'next-intl';
-import { Button } from '@nextui-org/react';
 
 const DefaultMain = () => {
   const t = useTranslations('DefaultMain');
@@ -13,9 +12,6 @@ const DefaultMain = () => {
       <p className="m-2 text-gray-700 dark:text-gray-300">{t('Paragraph-1')}</p>
       <p className="m-2 text-gray-700 dark:text-gray-300">{t('Paragraph-2')}</p>
       <DefaultSection />
-      <Button className="m-2" color="success">
-        {t('Button')}
-      </Button>
     </main>
   );
 };
