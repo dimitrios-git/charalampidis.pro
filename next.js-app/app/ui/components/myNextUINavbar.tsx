@@ -33,7 +33,11 @@ const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen}>
+    <Navbar
+      isBordered={false}
+      isBlurred={true} // Safari is having issues with backdrop-filter
+      onMenuOpenChange={setIsMenuOpen}
+    >
       <NavbarBrand>
         <p className="font-bold text-inherit">{translations.brand}</p>
       </NavbarBrand>
