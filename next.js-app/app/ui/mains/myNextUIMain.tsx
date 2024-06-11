@@ -3,6 +3,7 @@
 import MyNextUISection from '@/app/ui/sections/myNextUISection';
 import MyNextUIAside from '@/app/ui/asides/myNextUIAside';
 import { useTranslations } from 'next-intl';
+import MyNextUIDemo from '@/app/ui/sections/myNextUIDemo';
 
 const MyNextUIMain = () => {
   const t = useTranslations('MyNextUIMain');
@@ -19,9 +20,7 @@ const MyNextUIMain = () => {
             {t('Paragraph-2')}
           </p>
           <MyNextUISection />
-          <MyNextUISection />
-          <MyNextUISection />
-          <MyNextUISection />
+          <MyNextUIDemo />
         </main>
         <MyNextUIAside className="md:w-1/4 md:ml-4 mt-4 md:mt-0" />
       </div>

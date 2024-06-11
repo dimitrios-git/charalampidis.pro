@@ -59,5 +59,31 @@
   "MyNextUIAside": {
     "Title": "Nebentitel",
     "Paragraph": "Dies ist ein Absatz innerhalb eines aside-Tags."
+  },
+  "MyNextUIDemo": {
+    "Title": "Demo-Abschnitt",
+    "Paragraph": "Dies ist ein Abschnitt, der die Verwendung von NextUI-Komponenten demonstriert.",
+    "Colors": {
+      "Title": "Farben",
+      "Paragraph": "Dies ist ein Abschnitt, der die Verwendung von Farben demonstriert.",
+      "Default": "Standard",
+      "Primary": "Primär",
+      "Secondary": "Sekundär",
+      "Success": "Erfolg",
+      "Warning": "Warnung",
+      "Danger": "Gefahr",
+      "Blue": "Blau",
+      "Purple": "Lila",
+      "Green": "Grün",
+      "Red": "Rot",
+      "Pink": "Pink",
+      "Yellow": "Gelb",
+      "Zinc": "Zink",
+      "MyTeal": "Mein Türkis"
+    },
+    "Images": {
+      "Title": "Bilder",
+      "Paragraph": "Dies ist ein Abschnitt, der die Verwendung von Bildern demonstriert."
+    }
   }
 }

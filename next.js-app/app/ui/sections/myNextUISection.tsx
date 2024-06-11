@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 
 const MyNextUISection = () => {
   const t = useTranslations('MyNextUISection');
+
   return (
     <section className="bg-gray-100 dark:bg-gray-800 p-6 rounded shadow-md mt-4">
       <h3 className="text-2xl font-bold">{t('Title')}</h3>
