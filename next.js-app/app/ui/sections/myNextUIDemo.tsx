@@ -24,16 +24,16 @@ const MyNextUIDemo = () => {
           <Button color="warning">{t('Colors.Warning')}</Button>
           <Button color="danger">{t('Colors.Danger')}</Button>
         </div>
-        <div className="flex flex-wrap gap-4 mt-4">
-          <p className="text-blue-500 mt-4">{t('Colors.Blue')}</p>
-          <p className="text-purple-500 mt-4">{t('Colors.Purple')}</p>
-          <p className="text-green-500 mt-4">{t('Colors.Green')}</p>
-          <p className="text-red-500 mt-4">{t('Colors.Red')}</p>
-          <p className="text-pink-500 mt-4">{t('Colors.Pink')}</p>
-          <p className="text-yellow-500 mt-4">{t('Colors.Yellow')}</p>
-          <p className="text-zinc-500 mt-4">{t('Colors.Zinc')}</p>
-          <p className="text-myteal-500 mt-4">{t('Colors.MyTeal')}</p>
-        </div>
+        <ul className="flex flex-wrap gap-4 items-center mt-4">
+          <li className="text-blue-500">{t('Colors.Blue')}</li>
+          <li className="text-purple-500">{t('Colors.Purple')}</li>
+          <li className="text-green-500">{t('Colors.Green')}</li>
+          <li className="text-red-500">{t('Colors.Red')}</li>
+          <li className="text-pink-500">{t('Colors.Pink')}</li>
+          <li className="text-yellow-500">{t('Colors.Yellow')}</li>
+          <li className="text-zinc-500">{t('Colors.Zinc')}</li>
+          <li className="text-myteal-500">{t('Colors.MyTeal')}</li>
+        </ul>
       </article>
       <article className="my-6">
         <h4 className="text-xl font-bold">{t('Images.Title')}</h4>
