@@ -84,6 +84,35 @@
     "Images": {
       "Title": "Bilder",
       "Paragraph": "Dies ist ein Abschnitt, der die Verwendung von Bildern demonstriert."
+    },
+    "Table": {
+      "Header": {
+        "Name": "NAME",
+        "Role": "ROLLE",
+        "Status": "STATUS"
+      },
+      "Rows": {
+        "Row-1": {
+          "Name": "John Doe",
+          "Role": "Entwickler",
+          "Status": "Aktiv"
+        },
+        "Row-2": {
+          "Name": "Jane Doe",
+          "Role": "Designer",
+          "Status": "Inaktiv"
+        },
+        "Row-3": {
+          "Name": "Jim Doe",
+          "Role": "Manager",
+          "Status": "Aktiv"
+        },
+        "Row-4": {
+          "Name": "Jill Doe",
+          "Role": "Tester",
+          "Status": "Inaktiv"
+        }
+      }
     }
   }
 }

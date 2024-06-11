@@ -84,6 +84,35 @@
     "Images": {
       "Title": "Images",
       "Paragraph": "A paragraph about the images used in the demo."
+    },
+    "Table": {
+      "Header": {
+        "Name": "NAME",
+        "Role": "ROLE",
+        "Status": "STATUS"
+      },
+      "Rows": {
+        "Row-1": {
+          "Name": "John Doe",
+          "Role": "Developer",
+          "Status": "Active"
+        },
+        "Row-2": {
+          "Name": "Jane Doe",
+          "Role": "Designer",
+          "Status": "Inactive"
+        },
+        "Row-3": {
+          "Name": "Jim Doe",
+          "Role": "Manager",
+          "Status": "Active"
+        },
+        "Row-4": {
+          "Name": "Jill Doe",
+          "Role": "Tester",
+          "Status": "Inactive"
+        }
+      }
     }
   }
 }
