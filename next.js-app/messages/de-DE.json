@@ -32,7 +32,8 @@
   "MyNextUIHeader": {
     "Navbar": {
       "Brand": "Titel der Web-Appe",
-      "NavLink": "Verknüpfung"
+      "NavLink": "Verknüpfung",
+      "LanguageMenu": "Sprachmenü"
     }
   },
   "MyNextUIFooter": {

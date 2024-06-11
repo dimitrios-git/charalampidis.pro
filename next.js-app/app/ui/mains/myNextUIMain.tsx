@@ -19,6 +19,9 @@ const MyNextUIMain = () => {
             {t('Paragraph-2')}
           </p>
           <MyNextUISection />
+          <MyNextUISection />
+          <MyNextUISection />
+          <MyNextUISection />
         </main>
         <MyNextUIAside className="md:w-1/4 md:ml-4 mt-4 md:mt-0" />
       </div>
