@@ -13,12 +13,8 @@ const MyNextUIMain = () => {
       <div className="flex flex-col md:flex-row lg:container dark:text-gray-100">
         <main className="flex-grow md:w-3/4">
           <h2 className="text-3xl font-bold">{t('Title')}</h2>
-          <p className="m-2 text-gray-700 dark:text-gray-300">
-            {t('Paragraph-1')}
-          </p>
-          <p className="m-2 text-gray-700 dark:text-gray-300">
-            {t('Paragraph-2')}
-          </p>
+          <p className="m-2">{t('Paragraph-1')}</p>
+          <p className="m-2">{t('Paragraph-2')}</p>
           <MyNextUISection />
           <MyNextUIDemo />
         </main>

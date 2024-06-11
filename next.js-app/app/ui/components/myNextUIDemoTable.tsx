@@ -1,4 +1,4 @@
-// @/app/ui/sections/myNextUIDemoTable.tsx
+// @/app/ui/components/myNextUIDemoTable.tsx
 
 'use client';
 
