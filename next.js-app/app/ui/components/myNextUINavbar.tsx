@@ -1,3 +1,5 @@
+// @/app/ui/components/myNextUINavbar.tsx
+
 'use client';
 
 import React from 'react';

@@ -112,6 +112,10 @@
           "Role": "Tester",
           "Status": "Inactive"
         }
+      },
+      "Labels": {
+        "AriaLabel": "Table with demo data",
+        "SelectionColor": "Selection color"
       }
     }
   }

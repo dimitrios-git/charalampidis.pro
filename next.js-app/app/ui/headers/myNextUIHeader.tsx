@@ -1,3 +1,5 @@
+// @/app/ui/headers/myNextUIHeader.tsx
+
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import MyNextUINavbar from '@/app/ui/components/myNextUINavbar';

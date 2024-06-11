@@ -11,9 +11,11 @@ const MyNextUIAside: React.FC<MyNextUIAsideProps> = ({ className }) => {
   const t = useTranslations('MyNextUIAside');
 
   return (
-    <aside className={`bg-zinc-200 dark:bg-zinc-700 p-4 rounded ${className}`}>
+    <aside
+      className={`p-4 border border-myteal-200 dark:border-myteal-700 rounded ${className}`}
+    >
       <h3 className="text-lg font-bold">{t('Title')}</h3>
-      <p className="mt-2 text-gray-700 dark:text-gray-300">{t('Paragraph')}</p>
+      <p className="mt-2">{t('Paragraph')}</p>
     </aside>
   );
 };

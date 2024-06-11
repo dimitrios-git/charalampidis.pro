@@ -61,6 +61,10 @@ export interface MyNextUIDemoTableProps {
           status: string;
         };
       };
+      labels: {
+        ariaLabel: string;
+        selectionColor: string;
+      };
     };
   };
 }
@@ -84,7 +88,7 @@ const MyNextUIDemoTable: React.FC<MyNextUIDemoTableProps> = ({
             color={selectedColor}
             selectionMode="multiple"
             defaultSelectedKeys={['2', '3']}
-            aria-label="Example static collection table"
+            aria-label={translations.table.labels.ariaLabel}
           >
             <TableHeader>
               <TableColumn key="name">
@@ -145,7 +149,7 @@ const MyNextUIDemoTable: React.FC<MyNextUIDemoTableProps> = ({
             </TableBody>
           </Table>
           <RadioGroup
-            label="Selection color"
+            label={translations.table.labels.selectionColor}
             orientation="horizontal"
             value={selectedColor}
             onValueChange={(value) => setSelectedColor(value as Color)}

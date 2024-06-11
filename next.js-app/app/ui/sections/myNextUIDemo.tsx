@@ -3,7 +3,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Button, Divider, Spinner, Image } from '@nextui-org/react';
-import MyNextUIDemoTable from '@/app/ui/sections/myNextUIDemoTable';
+import MyNextUIDemoTable from '@/app/ui/components/myNextUIDemoTable';
 
 const MyNextUIDemo = () => {
   const t = useTranslations('MyNextUIDemo');
@@ -37,18 +37,20 @@ const MyNextUIDemo = () => {
           status: t('Table.Rows.Row-4.Status'),
         },
       },
+      labels: {
+        ariaLabel: t('Table.Labels.AriaLabel'),
+        selectionColor: t('Table.Labels.SelectionColor'),
+      },
     },
   };
 
   return (
     <section className="p-6 mt-4">
       <h3 className="text-2xl font-bold">{t('Title')}</h3>
-      <p className="mt-2 text-gray-700 dark:text-gray-300">{t('Paragraph')}</p>
+      <p className="mt-2">{t('Paragraph')}</p>
       <article className="my-6">
         <h4 className="text-xl font-bold">{t('Colors.Title')}</h4>
-        <p className="mt-2 text-gray-700 dark:text-gray-300">
-          {t('Colors.Paragraph')}
-        </p>
+        <p className="mt-2">{t('Colors.Paragraph')}</p>
         <div className="flex flex-wrap gap-4 items-center mt-4">
           <Button color="default">{t('Colors.Default')}</Button>
           <Button color="primary">{t('Colors.Primary')}</Button>
@@ -103,9 +105,7 @@ const MyNextUIDemo = () => {
       </article>
       <article className="my-6">
         <h4 className="text-xl font-bold">{t('Images.Title')}</h4>
-        <p className="mt-2 text-gray-700 dark:text-gray-300">
-          {t('Images.Paragraph')}
-        </p>
+        <p className="mt-2">{t('Images.Paragraph')}</p>
         <div className="flex flex-wrap gap-4 items-center mt-4">
           <Image
             isBlurred

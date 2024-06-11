@@ -112,6 +112,10 @@
           "Role": "Tester",
           "Status": "Inaktiv"
         }
+      },
+      "Labels": {
+        "AriaLabel": "Tabelle mit Benutzerinformationen",
+        "SelectionColor": "Auswahl-Farbe"
       }
     }
   }
