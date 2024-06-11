@@ -9,7 +9,8 @@ const MyNextUIHeader = () => {
 
   const navbarTranslations = {
     brand: t('Navbar.Brand'),
-    navLink: t('Navbar.NavLink'),
+    navLink1: t('Navbar.NavLink1'),
+    navLink2: t('Navbar.NavLink2'),
     languageMenu: t('Navbar.LanguageMenu'),
   };
 

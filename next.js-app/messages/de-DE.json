@@ -1,38 +1,9 @@
 {
-  "DefaultHeader": {
-    "App": {
-      "Title": "Titel der Web-Appe",
-      "NavLink": "Verknüpfung"
-    }
-  },
-  "DefaultFooter": {
-    "Copyright": {
-      "Name": "Mein Firmenname",
-      "AllRightsReserved": "Alle Rechte vorbehalten"
-    }
-  },
-  "DefaultMain": {
-    "Title": "Haupttitel",
-    "Paragraph-1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
-    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
-  },
-  "DefaultSection": {
-    "Title": "Abschnittstitel",
-    "Paragraph": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags.",
-    "Article": {
-      "Title": "Artikeltitel",
-      "Paragraph-1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
-      "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
-    }
-  },
-  "DefaultAside": {
-    "Title": "Nebentitel",
-    "Paragraph": "Dies ist ein Absatz innerhalb eines aside-Tags."
-  },
   "MyNextUIHeader": {
     "Navbar": {
-      "Brand": "Titel der Web-Appe",
-      "NavLink": "Verknüpfung",
+      "Brand": "charalampidis.pro",
+      "NavLink1": "Lebenslauf",
+      "NavLink2": "Blog",
       "LanguageMenu": "Sprachmenü"
     }
   },
@@ -118,5 +89,13 @@
         "SelectionColor": "Auswahl-Farbe"
       }
     }
+  },
+  "BlogMain": {
+    "Title": "Blog Haupttitel",
+    "Paragraph1": "Dies ist ein Absatz innerhalb eines Haupt-Tags."
+  },
+  "ResumeMain": {
+    "Title": "Lebenslauf Haupttitel",
+    "Paragraph1": "Dies ist ein Absatz innerhalb eines Haupt-Tags."
   }
 }
