@@ -97,5 +97,8 @@
   "ResumeMain": {
     "Title": "Lebenslauf Haupttitel",
     "Paragraph1": "Dies ist ein Absatz innerhalb eines Haupt-Tags."
+  },
+  "ResumeAside": {
+    "Title": "Tech-Stack"
   }
 }

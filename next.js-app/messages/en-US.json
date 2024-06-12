@@ -97,5 +97,9 @@
   "ResumeMain": {
     "Title": "Resume Main Title",
     "Paragraph1": "This is a paragraph inside a main tag."
+  },
+  "ResumeAside": {
+    "Title": "Tech Stack",
+    "Paragraph1": "This is a paragraph inside an aside tag."
   }
 }

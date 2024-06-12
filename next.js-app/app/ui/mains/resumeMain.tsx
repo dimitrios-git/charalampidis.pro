@@ -1,6 +1,7 @@
 // @/app/ui/mains/blogMain.tsx
 
 import { useTranslations } from 'next-intl';
+import ResumeAside from '@/app/ui/asides/resumeAside';
 
 const ResumeMain = () => {
   const t = useTranslations('ResumeMain');
@@ -9,9 +10,10 @@ const ResumeMain = () => {
     <div className="max-w-screen-lg mx-auto p-4">
       <div className="flex flex-col md:flex-row lg:container dark:text-gray-100">
         <main className="flex-grow md:w-3/4">
-          <h2 className="text-3xl font-bold">{t('Title')}</h2>
+          <h1 className="text-3xl font-bold">{t('Title')}</h1>
           <p className="m-2">{t('Paragraph1')}</p>
         </main>
+        <ResumeAside className="md:w-1/4 md:ml-4 mt-4 md:mt-0" />
       </div>
     </div>
   );
