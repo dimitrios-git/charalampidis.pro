@@ -45,7 +45,7 @@ const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
   const switchLocale = (locale: string) => {
     const currentLocale = getCurrentLocale();
     const newPathname = pathname.replace(`/${currentLocale}`, '') || '/';
-    router.push(`/${locale}${newPathname}`);
+    router.push(`/${locale}${newPathname}`, { scroll: false });
   };
 
   const currentLocale = getCurrentLocale();

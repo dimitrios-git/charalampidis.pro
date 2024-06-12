@@ -101,5 +101,14 @@
   "ResumeAside": {
     "Title": "Tech-Stack",
     "Paragraph1": "Im Folgenden finden Sie eine Liste von Technologien, mit denen ich gerne arbeite."
+  },
+  "ResumeTimelineSection": {
+    "Title": "Abschnittstitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags.",
+    "Article": {
+      "Title": "Artikeltitel",
+      "Paragraph-1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
+      "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
+    }
   }
 }

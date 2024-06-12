@@ -101,5 +101,29 @@
   "ResumeAside": {
     "Title": "Tech Stack",
     "Paragraph1": "Below you can find a list of technologies I love working with."
+  },
+  "ResumeTimelineSection": {
+    "Title": "My Professional Timeline",
+    "Paragraph": "Explore my professional journey through a chronological timeline highlighting my key experiences and achievements.",
+    "Entry1": {
+      "Title": "Linux System Administrator",
+      "Period": "Jan 2023 - Present",
+      "Description": "Managed high-value portfolios, executed strategic trades, and maximized investment returns."
+    },
+    "Entry2": {
+      "Title": "Student",
+      "Period": "Mar 2022 - Mar 2024",
+      "Description": "Founded and led a successful fintech startup, developing innovative financial solutions."
+    },
+    "Entry3": {
+      "Title": "Head of Business Development",
+      "Period": "Mar 2022 - Nov 2023",
+      "Description": "Founded and led a successful fintech startup, developing innovative financial solutions."
+    },
+    "Entry4": {
+      "Title": "Director",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    }
   }
 }

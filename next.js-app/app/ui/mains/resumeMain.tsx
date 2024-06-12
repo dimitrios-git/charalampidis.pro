@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import ResumeAside from '@/app/ui/asides/resumeAside';
+import ResumeTimelineSection from '@/app/ui/sections/resumeTimelineSection';
 
 const ResumeMain = () => {
   const t = useTranslations('ResumeMain');
@@ -16,6 +17,7 @@ const ResumeMain = () => {
               strong: (chunks) => <strong>{chunks}</strong>,
             })}
           </p>
+          <ResumeTimelineSection />
         </main>
         <ResumeAside className="md:w-1/4 md:ml-4 mt-4 md:mt-0" />
       </div>
