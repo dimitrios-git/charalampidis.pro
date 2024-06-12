@@ -95,11 +95,11 @@
     "Paragraph1": "This is a paragraph inside a main tag."
   },
   "ResumeMain": {
-    "Title": "Resume Main Title",
-    "Paragraph1": "This is a paragraph inside a main tag."
+    "Title": "My Resume",
+    "Paragraph1": "Since you are here, I assume you're an employer or a recruiter. So, let me introduce myself. My name is <strong>Dimitrios Charalampidis</strong> and I am a financial professional, turned software engineer. I have a strong background in finance and financial derivatives in particular, but I have always been passionate about technology. Have fun exploring my resume!"
   },
   "ResumeAside": {
     "Title": "Tech Stack",
-    "Paragraph1": "This is a paragraph inside an aside tag."
+    "Paragraph1": "Below you can find a list of technologies I love working with."
   }
 }

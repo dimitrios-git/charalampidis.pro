@@ -95,10 +95,11 @@
     "Paragraph1": "Dies ist ein Absatz innerhalb eines Haupt-Tags."
   },
   "ResumeMain": {
-    "Title": "Lebenslauf Haupttitel",
-    "Paragraph1": "Dies ist ein Absatz innerhalb eines Haupt-Tags."
+    "Title": "Mein Lebenslauf",
+    "Paragraph1": "Da Sie hier sind, nehme ich an, dass Sie ein Arbeitgeber oder ein Personalverantwortlicher sind. Lassen Sie mich mich also vorstellen. Mein Name ist <strong>Dimitrios Charalampidis</strong> und ich bin Finanzfachmann, der zum Software-Ingenieur wurde. Ich habe einen starken Hintergrund im Finanzwesen und insbesondere bei Finanzderivaten, aber ich habe mich schon immer für Technologie begeistert. Viel Spaß beim Erforschen meines Lebenslaufs!"
   },
   "ResumeAside": {
-    "Title": "Tech-Stack"
+    "Title": "Tech-Stack",
+    "Paragraph1": "Im Folgenden finden Sie eine Liste von Technologien, mit denen ich gerne arbeite."
   }
 }
