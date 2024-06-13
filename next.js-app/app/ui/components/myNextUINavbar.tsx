@@ -67,28 +67,14 @@ const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
         </Link>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        {isActive(resumeUrl) ? (
-          <NavbarItem isActive>
-            <Link href={resumeUrl}>{translations.navLink1}</Link>
-          </NavbarItem>
-        ) : (
-          <NavbarItem>
-            <Link href={resumeUrl}>{translations.navLink1}</Link>
-          </NavbarItem>
-        )}
-        {isActive(blogUrl) ? (
-          <NavbarItem isActive>
-            <Link href={blogUrl} aria-current="page">
-              {translations.navLink2}
-            </Link>
-          </NavbarItem>
-        ) : (
-          <NavbarItem>
-            <Link href={blogUrl} aria-current="page">
-              {translations.navLink2}
-            </Link>
-          </NavbarItem>
-        )}
+        <NavbarItem isActive={isActive(resumeUrl)}>
+          <Link href={resumeUrl}>{translations.navLink1}</Link>
+        </NavbarItem>
+        <NavbarItem isActive={isActive(blogUrl)}>
+          <Link href={blogUrl} aria-current="page">
+            {translations.navLink2}
+          </Link>
+        </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden md:flex space-x-4">
@@ -114,28 +100,17 @@ const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
       <NavbarMenu>
         <div className="max-w-screen-lg mx-auto p-4">
           <div className="flex flex-col md:flex-row">
-            {isActive(resumeUrl) ? (
-              <NavbarMenuItem className="sm:hidden" isActive>
-                <Link href={resumeUrl}>{translations.navLink1}</Link>
-              </NavbarMenuItem>
-            ) : (
-              <NavbarMenuItem className="sm:hidden">
-                <Link href={resumeUrl}>{translations.navLink1}</Link>
-              </NavbarMenuItem>
-            )}
-            {isActive(blogUrl) ? (
-              <NavbarMenuItem className="sm:hidden" isActive>
-                <Link href={blogUrl} aria-current="page">
-                  {translations.navLink2}
-                </Link>
-              </NavbarMenuItem>
-            ) : (
-              <NavbarMenuItem className="sm:hidden">
-                <Link href={blogUrl} aria-current="page">
-                  {translations.navLink2}
-                </Link>
-              </NavbarMenuItem>
-            )}
+            <NavbarMenuItem
+              className="sm:hidden"
+              isActive={isActive(resumeUrl)}
+            >
+              <Link href={resumeUrl}>{translations.navLink1}</Link>
+            </NavbarMenuItem>
+            <NavbarMenuItem className="sm:hidden" isActive={isActive(blogUrl)}>
+              <Link href={blogUrl} aria-current="page">
+                {translations.navLink2}
+              </Link>
+            </NavbarMenuItem>
             <Divider orientation="horizontal" className="my-4 sm:hidden" />
             <NavbarMenuItem>
               <Link color="foreground" onClick={() => switchLocale('en-US')}>

@@ -14,11 +14,7 @@ const MyNextUIHeader = () => {
     languageMenu: t('Navbar.LanguageMenu'),
   };
 
-  return (
-    <header className="sticky top-0 z-50">
-      <MyNextUINavbar translations={navbarTranslations} />
-    </header>
-  );
+  return <MyNextUINavbar translations={navbarTranslations} />;
 };
 
 export default MyNextUIHeader;

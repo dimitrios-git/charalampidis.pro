@@ -106,22 +106,80 @@
     "Title": "My Professional Timeline",
     "Paragraph": "Explore my professional journey through a chronological timeline highlighting my key experiences and achievements.",
     "Entry1": {
-      "Title": "Linux System Administrator",
+      "Title": "Finance Student",
+      "Institution": "University of National and World Economy",
       "Period": "Jan 2023 - Present",
       "Description": "Managed high-value portfolios, executed strategic trades, and maximized investment returns."
     },
     "Entry2": {
-      "Title": "Student",
+      "Title": "Intern",
+      "Institution": "Piraeus Bank Bulgaria",
       "Period": "Mar 2022 - Mar 2024",
       "Description": "Founded and led a successful fintech startup, developing innovative financial solutions."
     },
     "Entry3": {
-      "Title": "Head of Business Development",
+      "Title": "Marketing and Lending Officer",
+      "Institution": "Piraeus Bank Bulgaria",
       "Period": "Mar 2022 - Nov 2023",
       "Description": "Founded and led a successful fintech startup, developing innovative financial solutions."
     },
     "Entry4": {
+      "Title": "Marketing and Lending Officer",
+      "Institution": "Piraeus Bank Bulgaria",
+      "Period": "Mar 2022 - Nov 2023",
+      "Description": "Founded and led a successful fintech startup, developing innovative financial solutions."
+    },
+    "Entry5": {
+      "Title": "Finance Master's Student",
+      "Institution": "University of National and World Economy",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    },
+    "Entry6": {
+      "Title": "Soldier",
+      "Institution": "Hellenic Army",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    },
+    "Entry7": {
+      "Title": "Founder",
+      "Institution": "Snail Trading",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    },
+    "Entry8": {
       "Title": "Director",
+      "Institution": "European Brokerage House",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    },
+    "Entry9": {
+      "Title": "Financial Instruments Broker",
+      "Institution": "Financial Supervision Commission",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    },
+    "Entry10": {
+      "Title": "Financial Modelling & Valuation Analyst (FMVA)",
+      "Institution": "Corporate Finance Institute (CFI)",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    },
+    "Entry11": {
+      "Title": "Head of Business Development",
+      "Institution": "Best Solution",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    },
+    "Entry12": {
+      "Title": "Coding Student",
+      "Institution": "42Heilbronn",
+      "Period": "Oct 2017 - Feb 2022",
+      "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
+    },
+    "Entry13": {
+      "Title": "Linux System Administrator",
+      "Institution": "J&C Bachmann",
       "Period": "Oct 2017 - Feb 2022",
       "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
     }
