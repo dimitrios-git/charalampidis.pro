@@ -58,7 +58,7 @@ const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
   return (
     <Navbar
       isBordered={false}
-      isBlurred={true} // Safari is having issues with backdrop-filter
+      isBlurred={true}
       onMenuOpenChange={setIsMenuOpen}
     >
       <NavbarBrand>
