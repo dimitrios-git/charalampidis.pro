@@ -58,7 +58,7 @@ const ResumeTimelineCards = ({
       <div className="timeline mt-6">
         {displayedTimelineEntries.map((entry, index) => (
           <div key={index} className="timeline-entry mb-4">
-            <Card>
+            <Card className="w-full">
               <CardHeader className="flex gap-3">
                 <Image
                   as={NextImage}
@@ -78,16 +78,6 @@ const ResumeTimelineCards = ({
               <CardBody>
                 <p>{entry.description}</p>
               </CardBody>
-              <Divider />
-              <CardFooter>
-                <Link
-                  isExternal
-                  showAnchorIcon
-                  href="https://github.com/nextui-org/nextui"
-                >
-                  Visit source code on GitHub.
-                </Link>
-              </CardFooter>
             </Card>
           </div>
         ))}

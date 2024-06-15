@@ -24,6 +24,7 @@ import { TbBrandNodejs } from 'react-icons/tb';
 import { TbBrandPython } from 'react-icons/tb';
 import { SiJupyter } from 'react-icons/si';
 import { SiCplusplus } from 'react-icons/si';
+import { SiC } from 'react-icons/si';
 import { SiNginx } from 'react-icons/si';
 import { SiApache } from 'react-icons/si';
 import { TbBrandDocker } from 'react-icons/tb';
@@ -119,6 +120,9 @@ const ResumeAside: React.FC<ResumeAsideProps> = ({ className }) => {
         </Tooltip>
         <Tooltip content="C++">
           <SiCplusplus className="text-5xl text-gray-500 p-2" />
+        </Tooltip>
+        <Tooltip content="C">
+          <SiC className="text-5xl text-gray-500 p-2" />
         </Tooltip>
         <Tooltip content="Nginx">
           <SiNginx className="text-5xl text-gray-500 p-2" />
