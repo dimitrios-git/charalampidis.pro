@@ -186,5 +186,15 @@
       "Period": "Jan 2023 - Present",
       "Description": "Designed and developed full-stack web applications, specializing in modern technologies and robust backend systems."
     }
+  },
+  "V1Header": {
+    "Navbar": {
+      "Brand": "charalampidis.pro",
+      "LanguageMenu": "Language Menu"
+    }
+  },
+  "V1Main": {
+    "Title": "Main Title",
+    "Paragraph1": "This is a paragraph inside a main tag."
   }
 }

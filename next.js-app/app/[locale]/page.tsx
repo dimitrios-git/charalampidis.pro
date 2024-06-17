@@ -1,8 +1,7 @@
 // @/app/[locale]/page.tsx
 
-import MyNextUIHeader from '@/app/ui/headers/myNextUIHeader';
-import MyNextUIMain from '@/app/ui/mains/myNextUIMain';
-import MyNextUIFooter from '@/app/ui/footers/myNextUIFooter';
+import V1Header from '@/app/ui/headers/V1Header';
+import V1Main from '@/app/ui/mains/V1Main';
 interface HomeProps {
   params: { locale: string };
 }
@@ -10,9 +9,8 @@ interface HomeProps {
 export default function Home({ params: { locale } }: HomeProps) {
   return (
     <>
-      <MyNextUIHeader />
-      <MyNextUIMain />
-      <MyNextUIFooter />
+      <V1Header />
+      <V1Main />
     </>
   );
 }
